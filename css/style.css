@@ -375,3 +375,18 @@ form{
 .footer-content i:hover{
 	color: #0568D2;;
 }
+
+
+.contact-img{
+	
+}
+.cakeimg1{
+	float: left;
+	width: 45%;
+	margin-top: 10px;
+}
+.cakeimg2{
+	float: right;
+	width: 45%;
+	margin-top: 10px;
+}
