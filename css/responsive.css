@@ -41,6 +41,21 @@
     border-radius: 5px;
     padding-bottom: 20px;
 	}
+	.review-content p {
+    	font-size: 17px;
+    	line-height: 150%;
+	}
+	.review-content h2 {
+    	font-size: 25px;
+	}
+	.review-content img {
+    	margin: 15px 0;
+	}
+	.review-content p::before {
+    font-size: 75px;
+    top: 9px;
+    left: -39px;
+	}
 }
 
 @media only screen and (max-width: 768px) {
@@ -77,10 +92,17 @@
 	.footer-content {
     	margin-bottom: 30px;
 	}
+	.review-content p {
+    	font-size: 15px;
+    	line-height: 143%;
+	}
+	.review-content{
+		padding: 40px;
+	}
 }
 @media only screen and (max-width: 575px) {
 	.navbar-toggler-icon{
-		margin-right: 70px;
+		margin-right: 40px;
 	}
 	.navbar-brand{
 		margin-left: 30px;
@@ -92,9 +114,12 @@
     	letter-spacing: 0;
 	}
 	.review-content p::before {
-    	font-size: 70px;
-   	 	top: 10px;
-    	left: 42px;
+    	font-size: 54px;
+    	top: 6px;
+    	left: -20px;
+	}
+	.review-span {
+    	font-size: 13px;
 	}
 	.contact-content{
 		margin-left: 0;
@@ -115,9 +140,9 @@
     letter-spacing: 0;
 	}
 	.review-content p::before {
-    font-size: 60px;
-    top: 9px;
-    left: 67px; 
+    	font-size: 50px;
+    	top: 7px;
+    	left: -28px;
 	}
 	.contact-content{
 		margin-left: 0;
@@ -125,6 +150,7 @@
 	.contact-form{
 		margin-left: 0;
 	}
+
 }
 @media only screen and (max-width: 520px) {
 	.btn-banner1 {
@@ -145,21 +171,18 @@
 	.review-content p {
     	font-size: 15px;
 	}
+	
 	.review-content p::before {
-    	font-size: 60px;
-    	top: 9px;
-    	left: 102px;
+    	font-size: 50px;
+    	top: 8px;
+    	left: -26px;
 	}
 }
 @media only screen and (max-width: 400px) {
 	.review-content p {
     	font-size: 13px;
 	}
-	.review-content p::before {
-    	font-size: 40px;
-    	top: 5px;
-    	left: 135px;
-	}
+	
 	.igridients-content h2 {
     	font-size: 26px;
 	}

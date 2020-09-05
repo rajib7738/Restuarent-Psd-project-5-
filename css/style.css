@@ -242,8 +242,6 @@ header{
 	opacity: .8;
 	text-align: center;
 	padding: 70px;
-	width: 750px;
-	height: 520px;
 	left: 50%;
 	top: 50%;
 	position: absolute;
@@ -271,7 +269,7 @@ header{
 	content: "\275D";
 	font-size: 80px;
 	top:8px;
-	left: 14px;
+	left: -24px;
 	color: #9E9E99;
 }
 .review-span{
